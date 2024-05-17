@@ -8,3 +8,13 @@ function processArray(numbers) {
         }
     });
 }
+// Task 2: formatArrayStrings function
+function formatArrayStrings(strings, numbers) {
+    return strings.map((str, index) => {
+        if (numbers[index] % 2 === 0) {
+            return str.toUpperCase(); // Capitalize the entire string
+        } else {
+            return str.toLowerCase(); // Convert the string to lowercase
+        }
+    });
+}
