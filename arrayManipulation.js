@@ -18,3 +18,11 @@ function formatArrayStrings(strings, numbers) {
         }
     });
 }
+// testing with example
+const nums = [1, 2, 3, 4, 5];
+const processedNums = processArray(nums);
+console.log(processedNums); // Output: [3, 4, 9, 16, 15]
+
+const strings = ["sammy", "is", "very", "good", "boy"];
+const formattedStrings = formatArrayStrings(strings, processedNums);
+console.log(formattedStrings); // Output: ["sammy", "IS", "very", "GOOD", "boy"]
