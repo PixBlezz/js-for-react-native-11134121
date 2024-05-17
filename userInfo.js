@@ -19,3 +19,4 @@ const formattedNames = ["alice", "BOB", "charlie", "DIANA", "eve"]; // This woul
 
 const userProfiles = createUserProfiles(originalNames, formattedNames);
 console.log(userProfiles);
+module.exports = { createUserProfiles }; // Exporting for testing 
